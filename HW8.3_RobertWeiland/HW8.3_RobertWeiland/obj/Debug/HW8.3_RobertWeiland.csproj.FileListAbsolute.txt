@@ -1,0 +1,18 @@
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\bin\Debug\HW8.3_RobertWeiland.exe.config
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\bin\Debug\HW8.3_RobertWeiland.exe
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\bin\Debug\HW8.3_RobertWeiland.pdb
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8._3_RobertWeiland.Form1.resources
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8._3_RobertWeiland.Properties.Resources.resources
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.exe
+C:\Users\Public\Documents\visual studio 2015\Projects\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.pdb
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\bin\Debug\HW8.3_RobertWeiland.exe.config
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.exe
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.pdb
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\bin\Debug\HW8.3_RobertWeiland.exe
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\bin\Debug\HW8.3_RobertWeiland.pdb
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.csprojResolveAssemblyReference.cache
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8._3_RobertWeiland.Form1.resources
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8._3_RobertWeiland.Properties.Resources.resources
+C:\Users\weilandr0843\Desktop\HW8.3_RobertWeiland\HW8.3_RobertWeiland\obj\Debug\HW8.3_RobertWeiland.csproj.GenerateResource.Cache

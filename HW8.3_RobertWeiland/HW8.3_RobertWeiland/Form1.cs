@@ -38,6 +38,7 @@ namespace HW8._3_RobertWeiland
                 if (char.IsWhiteSpace(ch))
                 {
                     sentence = sentence.Remove(0, 1);
+                    ch = sentence[0];
                     ch = char.ToUpper(ch);
                     sentence = sentence.Remove(0, 1);
                     sentence = sentence.Insert(0, ch.ToString());

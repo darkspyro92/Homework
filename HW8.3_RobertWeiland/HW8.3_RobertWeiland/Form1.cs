@@ -22,33 +22,36 @@ namespace HW8._3_RobertWeiland
             string sentence = inputTextBox.Text;
             char ch; char[] delim = { '.' };
             string[] tokens = sentence.Split(delim);
-            
+            capitalizeLabel.Text = "";
             
             foreach (string s in tokens)
             {
-                ch = sentence[0];
+                ch = s[0];
+                string output;
+                output = s;
 
                 if (char.IsLower(ch))
                 {
                     ch = char.ToUpper(ch);
-                    sentence = sentence.Remove(0, 1);
-                    sentence = sentence.Insert(0, ch.ToString());
+                    output = output.Remove(0, 1);
+                    output = output.Insert(0, ch.ToString());
                 }
 
                 if (char.IsWhiteSpace(ch))
                 {
-                    sentence = sentence.Remove(0, 1);
+                    output = output.Remove(0, 1);
                     ch = sentence[0];
                     ch = char.ToUpper(ch);
-                    sentence = sentence.Remove(0, 1);
-                    sentence = sentence.Insert(0, ch.ToString());
-                    sentence = sentence.Insert(0, " ");
+                    output = output.Remove(0, 1);
+                    output = output.Insert(0, ch.ToString());
+                    output = output.Insert(0, " ");
                 }
+
+                capitalizeLabel.Text += output + ".";
+
             }
 
-            //sentence = tokens.Concat(tokens).ToString();
-
-            capitalizeLabel.Text = sentence;
+            
         }
     }
 }

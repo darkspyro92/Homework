@@ -26,6 +26,11 @@ namespace HW8._3_RobertWeiland
             
             foreach (string s in tokens)
             {
+                if(s == "")
+                {
+                    continue;
+                }
+
                 ch = s[0];
                 string output;
                 output = s;

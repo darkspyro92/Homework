@@ -46,7 +46,7 @@ namespace HW8._3_RobertWeiland
                 }
             }
 
-            sentence = tokens.Concat(tokens).ToString();
+            //sentence = tokens.Concat(tokens).ToString();
 
             capitalizeLabel.Text = sentence;
         }

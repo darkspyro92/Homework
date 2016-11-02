@@ -8,6 +8,7 @@ namespace M4H1_WeilandR
 {
     class MobileObject
     {
+        //Fields
         public int _HP = 0;
         public int _AC = 0;
         public int _AB = 0;

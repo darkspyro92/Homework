@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M4H1_WeilandR
 {
-    class Player
+    class Player : MobileObject
     {
     }
 }

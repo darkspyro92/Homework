@@ -8,5 +8,6 @@ namespace M4H1_WeilandR
 {
     class Monster : MobileObject
     {
+        
     }
 }

@@ -15,6 +15,8 @@ namespace M4H1_WeilandR
         public Form1()
         {
             InitializeComponent();
+
+            NonPlayerCharacter NPC = new NonPlayerCharacter();
         }
     }
 }

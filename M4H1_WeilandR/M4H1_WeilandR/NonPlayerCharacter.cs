@@ -24,6 +24,11 @@ namespace M4H1_WeilandR
             CanAttack = false;
         }
 
+        //public NonPlayerCharacter()
+        //{
+        //    NonPlayerCharacter()
+        //}
+
         public FactionType Faction
         {
             get { return _faction; }

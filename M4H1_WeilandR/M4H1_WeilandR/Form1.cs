@@ -17,6 +17,7 @@ namespace M4H1_WeilandR
             InitializeComponent();
 
             NonPlayerCharacter NPC = new NonPlayerCharacter();
+            
         }
     }
 }

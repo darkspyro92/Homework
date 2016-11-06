@@ -8,5 +8,10 @@ namespace M4H1_WeilandR
 {
     class Player : MobileObject
     {
+        public Player(int HP, int AC, int AB, int DMG, bool CanAttack)
+            : base(HP, AC, AB, DMG, CanAttack)
+        {
+            CanAttack = false;
+        }
     }
 }

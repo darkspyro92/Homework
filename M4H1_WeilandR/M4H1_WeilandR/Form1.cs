@@ -22,10 +22,10 @@ namespace M4H1_WeilandR
 
         private void displayStatsButton_Click(object sender, EventArgs e)
         {
-            int HP, AC, AB, DMG;
-
+            Player player = new Player(15, 5, 3, 5, false);
+            //player.HP = playerHPLabel.Text;
             NonPlayerCharacter NPC = new NonPlayerCharacter(10, 2, 0, 2, false, NonPlayerCharacter.FactionType.Skylanders);
-
+            
         }
     }
 }

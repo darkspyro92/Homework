@@ -59,10 +59,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.npcGroupBox.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -79,11 +75,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.playerHPLabel);
             this.groupBox1.Controls.Add(this.playerACLabel);
             this.groupBox1.Controls.Add(this.playerABLabel);
-            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.playerDMGLabel);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -161,11 +155,9 @@
             // 
             // npcGroupBox
             // 
-            this.npcGroupBox.Controls.Add(this.label8);
             this.npcGroupBox.Controls.Add(this.monsterHPLabel);
             this.npcGroupBox.Controls.Add(this.monsterACLabel);
             this.npcGroupBox.Controls.Add(this.monsterABLabel);
-            this.npcGroupBox.Controls.Add(this.label5);
             this.npcGroupBox.Controls.Add(this.monsterDMGLabel);
             this.npcGroupBox.Controls.Add(this.label12);
             this.npcGroupBox.Controls.Add(this.label13);
@@ -378,42 +370,6 @@
             this.label7.TabIndex = 1;
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label5
-            // 
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(54, 85);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 18);
-            this.label5.TabIndex = 1;
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 88);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 13);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Faction:";
-            // 
-            // label17
-            // 
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Location = new System.Drawing.Point(54, 85);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(100, 18);
-            this.label17.TabIndex = 1;
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 88);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(45, 13);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "Faction:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -458,10 +414,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button displayStatsButton;
         private System.Windows.Forms.Button exitButton;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label npcHPLabel;

@@ -48,8 +48,24 @@
             this.label15 = new System.Windows.Forms.Label();
             this.displayStatsButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.npcHPLabel = new System.Windows.Forms.Label();
+            this.npcACLabel = new System.Windows.Forms.Label();
+            this.npcABLabel = new System.Windows.Forms.Label();
+            this.npcDMGLabel = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.npcGroupBox.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -63,9 +79,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.playerHPLabel);
             this.groupBox1.Controls.Add(this.playerACLabel);
             this.groupBox1.Controls.Add(this.playerABLabel);
+            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.playerDMGLabel);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -81,7 +99,7 @@
             // playerHPLabel
             // 
             this.playerHPLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.playerHPLabel.Location = new System.Drawing.Point(47, 13);
+            this.playerHPLabel.Location = new System.Drawing.Point(54, 13);
             this.playerHPLabel.Name = "playerHPLabel";
             this.playerHPLabel.Size = new System.Drawing.Size(100, 18);
             this.playerHPLabel.TabIndex = 1;
@@ -90,7 +108,7 @@
             // playerACLabel
             // 
             this.playerACLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.playerACLabel.Location = new System.Drawing.Point(47, 31);
+            this.playerACLabel.Location = new System.Drawing.Point(54, 31);
             this.playerACLabel.Name = "playerACLabel";
             this.playerACLabel.Size = new System.Drawing.Size(100, 18);
             this.playerACLabel.TabIndex = 1;
@@ -99,7 +117,7 @@
             // playerABLabel
             // 
             this.playerABLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.playerABLabel.Location = new System.Drawing.Point(47, 49);
+            this.playerABLabel.Location = new System.Drawing.Point(54, 49);
             this.playerABLabel.Name = "playerABLabel";
             this.playerABLabel.Size = new System.Drawing.Size(100, 18);
             this.playerABLabel.TabIndex = 1;
@@ -108,7 +126,7 @@
             // playerDMGLabel
             // 
             this.playerDMGLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.playerDMGLabel.Location = new System.Drawing.Point(47, 67);
+            this.playerDMGLabel.Location = new System.Drawing.Point(54, 67);
             this.playerDMGLabel.Name = "playerDMGLabel";
             this.playerDMGLabel.Size = new System.Drawing.Size(100, 18);
             this.playerDMGLabel.TabIndex = 1;
@@ -143,9 +161,11 @@
             // 
             // npcGroupBox
             // 
+            this.npcGroupBox.Controls.Add(this.label8);
             this.npcGroupBox.Controls.Add(this.monsterHPLabel);
             this.npcGroupBox.Controls.Add(this.monsterACLabel);
             this.npcGroupBox.Controls.Add(this.monsterABLabel);
+            this.npcGroupBox.Controls.Add(this.label5);
             this.npcGroupBox.Controls.Add(this.monsterDMGLabel);
             this.npcGroupBox.Controls.Add(this.label12);
             this.npcGroupBox.Controls.Add(this.label13);
@@ -161,7 +181,7 @@
             // monsterHPLabel
             // 
             this.monsterHPLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.monsterHPLabel.Location = new System.Drawing.Point(47, 13);
+            this.monsterHPLabel.Location = new System.Drawing.Point(54, 13);
             this.monsterHPLabel.Name = "monsterHPLabel";
             this.monsterHPLabel.Size = new System.Drawing.Size(100, 18);
             this.monsterHPLabel.TabIndex = 1;
@@ -170,7 +190,7 @@
             // monsterACLabel
             // 
             this.monsterACLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.monsterACLabel.Location = new System.Drawing.Point(47, 31);
+            this.monsterACLabel.Location = new System.Drawing.Point(54, 31);
             this.monsterACLabel.Name = "monsterACLabel";
             this.monsterACLabel.Size = new System.Drawing.Size(100, 18);
             this.monsterACLabel.TabIndex = 1;
@@ -179,7 +199,7 @@
             // monsterABLabel
             // 
             this.monsterABLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.monsterABLabel.Location = new System.Drawing.Point(47, 49);
+            this.monsterABLabel.Location = new System.Drawing.Point(54, 49);
             this.monsterABLabel.Name = "monsterABLabel";
             this.monsterABLabel.Size = new System.Drawing.Size(100, 18);
             this.monsterABLabel.TabIndex = 1;
@@ -188,7 +208,7 @@
             // monsterDMGLabel
             // 
             this.monsterDMGLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.monsterDMGLabel.Location = new System.Drawing.Point(47, 67);
+            this.monsterDMGLabel.Location = new System.Drawing.Point(54, 67);
             this.monsterDMGLabel.Name = "monsterDMGLabel";
             this.monsterDMGLabel.Size = new System.Drawing.Size(100, 18);
             this.monsterDMGLabel.TabIndex = 1;
@@ -232,29 +252,176 @@
             // 
             // displayStatsButton
             // 
-            this.displayStatsButton.Location = new System.Drawing.Point(97, 141);
+            this.displayStatsButton.Location = new System.Drawing.Point(178, 141);
             this.displayStatsButton.Name = "displayStatsButton";
             this.displayStatsButton.Size = new System.Drawing.Size(75, 23);
             this.displayStatsButton.TabIndex = 2;
             this.displayStatsButton.Text = "Display";
             this.displayStatsButton.UseVisualStyleBackColor = true;
+            this.displayStatsButton.Click += new System.EventHandler(this.displayStatsButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(178, 141);
+            this.exitButton.Location = new System.Drawing.Point(263, 141);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 2;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.npcHPLabel);
+            this.groupBox2.Controls.Add(this.npcACLabel);
+            this.groupBox2.Controls.Add(this.npcABLabel);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.npcDMGLabel);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Location = new System.Drawing.Point(344, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(160, 114);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "NPC";
+            // 
+            // npcHPLabel
+            // 
+            this.npcHPLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.npcHPLabel.Location = new System.Drawing.Point(54, 13);
+            this.npcHPLabel.Name = "npcHPLabel";
+            this.npcHPLabel.Size = new System.Drawing.Size(100, 18);
+            this.npcHPLabel.TabIndex = 1;
+            this.npcHPLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // npcACLabel
+            // 
+            this.npcACLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.npcACLabel.Location = new System.Drawing.Point(54, 31);
+            this.npcACLabel.Name = "npcACLabel";
+            this.npcACLabel.Size = new System.Drawing.Size(100, 18);
+            this.npcACLabel.TabIndex = 1;
+            this.npcACLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // npcABLabel
+            // 
+            this.npcABLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.npcABLabel.Location = new System.Drawing.Point(54, 49);
+            this.npcABLabel.Name = "npcABLabel";
+            this.npcABLabel.Size = new System.Drawing.Size(100, 18);
+            this.npcABLabel.TabIndex = 1;
+            this.npcABLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // npcDMGLabel
+            // 
+            this.npcDMGLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.npcDMGLabel.Location = new System.Drawing.Point(54, 67);
+            this.npcDMGLabel.Name = "npcDMGLabel";
+            this.npcDMGLabel.Size = new System.Drawing.Size(100, 18);
+            this.npcDMGLabel.TabIndex = 1;
+            this.npcDMGLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 70);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "DMG:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(6, 52);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(24, 13);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "AB:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 34);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(24, 13);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "AC:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 16);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(25, 13);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "HP:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 88);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(45, 13);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Faction:";
+            // 
+            // label7
+            // 
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label7.Location = new System.Drawing.Point(54, 85);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(100, 18);
+            this.label7.TabIndex = 1;
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Location = new System.Drawing.Point(54, 85);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 18);
+            this.label5.TabIndex = 1;
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 88);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 13);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Faction:";
+            // 
+            // label17
+            // 
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label17.Location = new System.Drawing.Point(54, 85);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(100, 18);
+            this.label17.TabIndex = 1;
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 88);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(45, 13);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "Faction:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(352, 176);
+            this.ClientSize = new System.Drawing.Size(516, 176);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.displayStatsButton);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.npcGroupBox);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -263,6 +430,8 @@
             this.groupBox1.PerformLayout();
             this.npcGroupBox.ResumeLayout(false);
             this.npcGroupBox.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -289,6 +458,21 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button displayStatsButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label npcHPLabel;
+        private System.Windows.Forms.Label npcACLabel;
+        private System.Windows.Forms.Label npcABLabel;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label npcDMGLabel;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label16;
     }
 }
 

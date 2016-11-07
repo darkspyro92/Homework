@@ -16,8 +16,16 @@ namespace M4H1_WeilandR
         {
             InitializeComponent();
 
-            NonPlayerCharacter NPC = new NonPlayerCharacter();
             
+            
+        }
+
+        private void displayStatsButton_Click(object sender, EventArgs e)
+        {
+            int HP, AC, AB, DMG;
+
+            NonPlayerCharacter NPC = new NonPlayerCharacter(10, 2, 0, 2, false, NonPlayerCharacter.FactionType.Skylanders);
+
         }
     }
 }

@@ -14,6 +14,7 @@ namespace M4H1_WeilandR
         public int _AB = 0;
         public int _DMG = 0;
         public bool _CanAttack = true;
+        
 
         //Constructor
         public MobileObject(int HP, int AC, int AB, int DMG, bool CanAttack)

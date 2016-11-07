@@ -8,7 +8,7 @@ namespace M4H1_WeilandR
 {
     class NonPlayerCharacter : MobileObject
     {
-        //Fields
+        //Fields:The different factions for the NPC.
         public enum FactionType
         {
             Unaffiliated, Skylanders, Immaculates, Wayfarers
@@ -20,7 +20,7 @@ namespace M4H1_WeilandR
         public NonPlayerCharacter(int HP, int AC, int AB, int DMG, bool CanAttack, FactionType faction)
             : base(HP, AC, AB, DMG, CanAttack)
         {
-            _faction = FactionType.Unaffiliated;
+            _faction = faction;
             CanAttack = false;
         }
 

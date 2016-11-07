@@ -13,5 +13,15 @@ namespace M4H1_WeilandR
         {
             CanAttack = false;
         }
+        
+        //Getter and setter for the Reputation system.
+        //private void GetFaction(NonPlayerCharacter.FactionType)
+        //{
+
+        //}
+        //private int UpdateFaction(NonPlayerCharacter.FactionType)
+        //{
+
+        //}
     }
 }

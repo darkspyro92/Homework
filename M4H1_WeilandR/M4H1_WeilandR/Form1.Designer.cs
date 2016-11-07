@@ -37,7 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.npcGroupBox = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.monsterHPLabel = new System.Windows.Forms.Label();
             this.monsterACLabel = new System.Windows.Forms.Label();
             this.monsterABLabel = new System.Windows.Forms.Label();
@@ -58,9 +58,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.npcFactionLabel = new System.Windows.Forms.Label();
+            this.playerRepLabel = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            this.npcGroupBox.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,9 +77,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.playerHPLabel);
             this.groupBox1.Controls.Add(this.playerACLabel);
             this.groupBox1.Controls.Add(this.playerABLabel);
+            this.groupBox1.Controls.Add(this.playerRepLabel);
             this.groupBox1.Controls.Add(this.playerDMGLabel);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -153,22 +157,22 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "AC:";
             // 
-            // npcGroupBox
+            // groupBox3
             // 
-            this.npcGroupBox.Controls.Add(this.monsterHPLabel);
-            this.npcGroupBox.Controls.Add(this.monsterACLabel);
-            this.npcGroupBox.Controls.Add(this.monsterABLabel);
-            this.npcGroupBox.Controls.Add(this.monsterDMGLabel);
-            this.npcGroupBox.Controls.Add(this.label12);
-            this.npcGroupBox.Controls.Add(this.label13);
-            this.npcGroupBox.Controls.Add(this.label14);
-            this.npcGroupBox.Controls.Add(this.label15);
-            this.npcGroupBox.Location = new System.Drawing.Point(178, 12);
-            this.npcGroupBox.Name = "npcGroupBox";
-            this.npcGroupBox.Size = new System.Drawing.Size(160, 114);
-            this.npcGroupBox.TabIndex = 1;
-            this.npcGroupBox.TabStop = false;
-            this.npcGroupBox.Text = "Monster";
+            this.groupBox3.Controls.Add(this.monsterHPLabel);
+            this.groupBox3.Controls.Add(this.monsterACLabel);
+            this.groupBox3.Controls.Add(this.monsterABLabel);
+            this.groupBox3.Controls.Add(this.monsterDMGLabel);
+            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.label13);
+            this.groupBox3.Controls.Add(this.label14);
+            this.groupBox3.Controls.Add(this.label15);
+            this.groupBox3.Location = new System.Drawing.Point(178, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(160, 114);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Monster";
             // 
             // monsterHPLabel
             // 
@@ -260,6 +264,7 @@
             this.exitButton.TabIndex = 2;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // groupBox2
             // 
@@ -267,7 +272,7 @@
             this.groupBox2.Controls.Add(this.npcHPLabel);
             this.groupBox2.Controls.Add(this.npcACLabel);
             this.groupBox2.Controls.Add(this.npcABLabel);
-            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.npcFactionLabel);
             this.groupBox2.Controls.Add(this.npcDMGLabel);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label10);
@@ -361,14 +366,32 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Faction:";
             // 
-            // label7
+            // npcFactionLabel
             // 
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Location = new System.Drawing.Point(54, 85);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 18);
-            this.label7.TabIndex = 1;
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.npcFactionLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.npcFactionLabel.Location = new System.Drawing.Point(54, 85);
+            this.npcFactionLabel.Name = "npcFactionLabel";
+            this.npcFactionLabel.Size = new System.Drawing.Size(100, 18);
+            this.npcFactionLabel.TabIndex = 1;
+            this.npcFactionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // playerRepLabel
+            // 
+            this.playerRepLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.playerRepLabel.Location = new System.Drawing.Point(54, 85);
+            this.playerRepLabel.Name = "playerRepLabel";
+            this.playerRepLabel.Size = new System.Drawing.Size(100, 18);
+            this.playerRepLabel.TabIndex = 1;
+            this.playerRepLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 88);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(30, 13);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Rep:";
             // 
             // Form1
             // 
@@ -378,14 +401,14 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.displayStatsButton);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.npcGroupBox);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.npcGroupBox.ResumeLayout(false);
-            this.npcGroupBox.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -403,7 +426,7 @@
         private System.Windows.Forms.Label playerACLabel;
         private System.Windows.Forms.Label playerABLabel;
         private System.Windows.Forms.Label playerDMGLabel;
-        private System.Windows.Forms.GroupBox npcGroupBox;
+        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label monsterHPLabel;
         private System.Windows.Forms.Label monsterACLabel;
         private System.Windows.Forms.Label monsterABLabel;
@@ -419,12 +442,14 @@
         private System.Windows.Forms.Label npcHPLabel;
         private System.Windows.Forms.Label npcACLabel;
         private System.Windows.Forms.Label npcABLabel;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label npcFactionLabel;
         private System.Windows.Forms.Label npcDMGLabel;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label playerRepLabel;
     }
 }
 

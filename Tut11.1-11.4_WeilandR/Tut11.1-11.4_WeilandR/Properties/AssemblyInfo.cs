@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HW8.3_RobertWeiland")]
+[assembly: AssemblyTitle("Tut11.1-11.4_WeilandR")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FTCC")]
-[assembly: AssemblyProduct("HW8.3_RobertWeiland")]
+[assembly: AssemblyProduct("Tut11.1-11.4_WeilandR")]
 [assembly: AssemblyCopyright("Copyright © FTCC 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f419a1ae-1baf-427f-8465-3568b770176d")]
+[assembly: Guid("7beced73-15c7-4a45-9103-bf2998ba1327")]
 
 // Version information for an assembly consists of the following four values:
 //

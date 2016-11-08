@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HW8._3_RobertWeiland.Properties
+namespace Tut11._1_11._4_WeilandR.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace HW8._3_RobertWeiland.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("HW8._3_RobertWeiland.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tut11._1_11._4_WeilandR.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

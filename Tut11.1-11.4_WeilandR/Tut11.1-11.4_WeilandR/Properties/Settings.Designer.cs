@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HW8._3_RobertWeiland.Properties
+namespace Tut11._1_11._4_WeilandR.Properties
 {
 
 

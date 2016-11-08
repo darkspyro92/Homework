@@ -17,7 +17,7 @@ namespace M4H1_WeilandR
         //Getter and setter for the Reputation system.
         private void GetFaction()
         {
-
+            
         }
         private int UpdateFaction()
         {

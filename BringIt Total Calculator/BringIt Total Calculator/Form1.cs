@@ -13,9 +13,9 @@ namespace BringIt_Total_Calculator
 {
     struct OrderEntry
     {
-        public string name;
-        public string type;
-        public string cost;
+        public string name;                     //For holding an entry's name.
+        public string type;                     //For holding an entry's type.
+        public string cost;                     //For holding an entry's cost.
     }
     public partial class Main : Form
     {

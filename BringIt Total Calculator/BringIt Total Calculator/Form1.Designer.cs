@@ -190,6 +190,7 @@
             this.tipButton.TabIndex = 11;
             this.tipButton.Text = "Add Tip";
             this.tipButton.UseVisualStyleBackColor = true;
+            this.tipButton.Click += new System.EventHandler(this.tipButton_Click);
             // 
             // itemCostLabel
             // 
@@ -215,7 +216,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(216, 301);
+            this.ClientSize = new System.Drawing.Size(216, 329);
             this.Controls.Add(this.tipButton);
             this.Controls.Add(this.ordersListBox);
             this.Controls.Add(this.costLabelPrompt);

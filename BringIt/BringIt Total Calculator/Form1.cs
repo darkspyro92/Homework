@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ *Robert Elwyn Weiland
+ *Friday, January 27, 2017 - Monday, January 30, 2017
+ *CSC 289
+ *Professor Andrew Norris
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

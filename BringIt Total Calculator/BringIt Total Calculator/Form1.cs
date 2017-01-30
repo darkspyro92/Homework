@@ -73,7 +73,9 @@ namespace BringIt_Total_Calculator
                     price = Double.Parse(entry.cost);
                     if (price < 10)
                     {
-
+                        //If it is less than $10, remove it from the list.
+                        //Do not remove it from the text file, though. The parameters may change.
+                        orderList.Remove(entry);
                     }
 
                 }
